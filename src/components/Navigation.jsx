@@ -1,11 +1,12 @@
-import Logo from "../../public/logoByDalle-modified.png";
 import styles from "./Navigation.module.css";
+import Logo from "../../public/logoByDalle-modified.png";
 const Navigation = () => {
   return (
     <nav className={`${styles.navigation} container`}>
       <div className="logo">
-        <img src={Logo} alt="NetSphere Logo" />
+        <img src={Logo} alt="do some coding logo" />
       </div>
+
       <ul>
         <li>Home</li>
         <li>About</li>
